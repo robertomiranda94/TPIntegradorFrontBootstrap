@@ -1,0 +1,41 @@
+/*estilos para celular   0 a 1023*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(69, 69, 69);
+    padding: 1.2rem 5rem;
+    
+}
+
+/*media querie para tablet*/
+@media screen and (min-width: 768px) and (max-width: 994px){
+    .contenedorNav{
+       flex-direction: row;
+       height: 12%;
+       
+       
+    }
+}
+
+/*media querie para notebook*/
+@media screen and (min-width: 995px) and (max-width:1400px){
+    .contenedorNav{
+        flex-direction: row;
+        height: 12%;
+    }
+}
+
+/*media querie para desktop*/
+@media screen and (min-width: 1401px){
+    .contenedorNav{
+        flex-direction: row;
+        height: 12%;
+    }
+}
