@@ -92,6 +92,10 @@ a {
     align-self: flex-end;
 }
 
+.button a {
+    color: white;
+}
+
 .green {
     background-color: rgb(19, 158, 30);
 }
